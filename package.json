@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "release": "changeset publish"
+    "release": "build & changeset publish"
   },
   "publishConfig": {
     "access": "public"
