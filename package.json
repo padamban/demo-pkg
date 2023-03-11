@@ -17,7 +17,7 @@
   "description": "hello",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/padamban/demo-pkg.git"
+    "url": "https://github.com/jpadamban/demo-pkg"
   },
   "keywords": [
     "demo"
