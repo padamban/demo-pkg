@@ -1,14 +1,14 @@
 {
   "name": "@pulchritude/my-demo-padamban-package",
   "license": "MIT",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts",
+    "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
-    "release": "build & changeset publish"
+    "release": "changeset publish"
   },
   "publishConfig": {
     "access": "public"
